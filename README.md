@@ -102,7 +102,14 @@ Las principales limitaciones consiste en el gran número de líneas que se puede
 
 Los datos proceden del dataset *Hidrantes de protección contra incendios en espacios públicos* correspondiente al año 2020, elaborado por el Cuerpo de Bomberos del Ayuntamiento de Madrid y disponible en el portal datos.gob.es (https://datos.gob.es/es/catalogo/l01280796-hidrantes-de-proteccion-contra-incendios-en-espacios-publicos1). Los hidrantes de protección contra incendios (comúnmente “de bomberos”) son elementos hidráulicos que proporcionan agua directamente de las redes de distribución para abastecer de a los camiones del Servicio de Incendios. En ningún caso estos elementos pueden ser manipulados por personas que no pertenezcan al Servicio de Extinción de Incendios o a personal de conservación de dichos elementos. Estos elementos no pueden proporcionar agua para obras, riego de jardines, eventos o cualquier otro uso particular. Los datos que se proporcionan son de los hidrantes de conservación municipal ubicados en los espacios públicos. Para esta visualización se ha seleccionado el año 2020. Los datos de entrada para esta visualización están disponibles en la carpeta hypertree.
 
-A este conjunto de datos sí que se le ha aplicado una transformación para obtener una estructura d3.hierarchy. La visualización se ha elaborado con la herramienta D3.js
+A este conjunto de datos sí que se le ha aplicado una transformación para obtener una estructura d3.hierarchy. La visualización se ha elaborado con la herramienta D3.js y se encuentra disponible en:
+
+http://sectores.aemet.es/hypertree/inline.html
+
+Una captura de pantalla es la siguiente:
+
+![image](https://user-images.githubusercontent.com/103445965/204889819-94c8af8b-ed9a-467a-b3c7-9039e99e0b89.png)
+
 
 
 
