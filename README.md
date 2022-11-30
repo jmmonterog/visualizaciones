@@ -25,7 +25,7 @@ El diagrama de dispersión se usa comúnmente para mostrar cómo dos variables s
 
 Los datos para esta técnica de visualización deben ser cuantitativos, o sea, valores numéricos. 
 
-Las principales limitaciones consiste en el gran número de puntos que se pueden obtener al contener los datos de entrada muchos conjuntos.
+Las principales limitaciones consiste en el gran número de puntos que se pueden obtener al contener los datos de entrada muchos datos.
 
 * **Tipo de dato utilizado**
 
@@ -52,6 +52,8 @@ https://public.tableau.com/app/profile/jes.s.montero6813/viz/scatterplot_1669784
 
 Es el hermano del gráfico de líneas. Los gráficos de líneas muestran tres o más puntos en el tiempo, mientras que los gráficos de pendientes muestran exactamente dos puntos en el tiempo.
 
+* **Usos de esta técnica**
+
 Definido por Edward Tufte en su libro de 1983 The Visual Display of Quantitative Information, este tipo de gráfico es útil para ver 
 •	la jerarquía de los países en dos años diferentes
 •	las cifras específicas asociadas a cada país en cada uno de esos años 
@@ -59,7 +61,8 @@ Definido por Edward Tufte en su libro de 1983 The Visual Display of Quantitative
 •	cómo se compara la tasa de cambio de cada país con las tasas de cambio de los demás países 
 •	cualquier desviación notable en la tendencia general 
 
-Las principales limitaciones consiste en el gran número de líneas que se pueden obtener al contener los datos de entrada muchos conjuntos.
+Las principales limitaciones consiste en el gran número de líneas que se pueden obtener al contener los datos de entrada muchos datos.
+
 
 * **Tipo de dato utilizado**
 
@@ -74,5 +77,30 @@ En concreto, se encuentra en:
 https://public.tableau.com/app/profile/jes.s.montero6813/viz/nombres_bebes/nombres_bebes
 
 ![image](https://user-images.githubusercontent.com/103445965/204886329-a89127f1-03e9-41a6-a966-52e4930152d9.png)
+
+## Hyperbolic Tree  (árboles hiperbólicos)
+
+Un árbol hiperbólico define un método de dibujo de gráficos inspirado en la geometría hiperbólica.
+
+
+La visualización de datos jerárquicos en forma de árbol sufre de desorden visual, ya que el número de nodos por nivel puede crecer exponencialmente. Para un árbol binario simple, el número máximo de nodos en un nivel n es de 2 exp(n), mientras que el número de nodos para árboles más grandes crece mucho más rápidamente.
+
+Por lo tanto, dibujar el árbol como un diagrama de enlaces de nodos requiere cantidades exponenciales de espacio para su visualización.
+
+Los árboles hiperbólicos emplean el espacio hiperbólico, que intrínsecamente tiene "más espacio" que el espacio euclidiano. Por ejemplo, el aumento lineal del radio de un círculo en el espacio euclidiano incrementa su circunferencia de forma lineal, mientras que el mismo círculo en el espacio hiperbólico aumentaría su circunferencia de forma exponencial. La explotación de esta propiedad permite distribuir el árbol en el espacio hiperbólico de una manera sencilla: si se coloca un nodo lo suficientemente lejos de su padre, éste dispondrá de casi la misma cantidad de espacio que su padre para distribuir sus propios hijos.
+
+![image](https://user-images.githubusercontent.com/103445965/204887790-7387c549-25c6-44d8-98c4-ea1cc5bd68fa.png)
+
+
+* **Usos de esta técnica**
+
+Se utiliza para representar datos jerarquizados a varios niveles y nos interesa representar esa jerarquía y pueden ser cualitativos y cuantitativos. Si lo representamos en forma de árbol no se obtiene un resultado adecuado pues se desperdicia mucho espacio.
+
+Las principales limitaciones consiste en el gran número de líneas que se pueden obtener al contener los datos de entrada muchos datos.
+
+* **Tipo de dato utilizado**
+
+Los datos proceden del dataset *Hidrantes de protección contra incendios en espacios públicos* correspondiente al año 2020, elaborado por el Cuerpo de Bomberos del Ayuntamiento de Madrid y disponible en el portal datos.gob.es (https://datos.gob.es/es/catalogo/l01280796-hidrantes-de-proteccion-contra-incendios-en-espacios-publicos1). Los hidrantes de protección contra incendios (comúnmente “de bomberos”) son elementos hidráulicos que proporcionan agua directamente de las redes de distribución para abastecer de a los camiones del Servicio de Incendios. En ningún caso estos elementos pueden ser manipulados por personas que no pertenezcan al Servicio de Extinción de Incendios o a personal de conservación de dichos elementos. Estos elementos no pueden proporcionar agua para obras, riego de jardines, eventos o cualquier otro uso particular. Los datos que se proporcionan son de los hidrantes de conservación municipal ubicados en los espacios públicos. Para esta visualización se ha seleccionado el año 2020. Los datos de entrada para esta visualización están disponibles en la carpeta hypertree.
+
 
 
