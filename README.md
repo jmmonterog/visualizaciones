@@ -60,6 +60,7 @@ Definido por Edward Tufte en su libro de 1983 The Visual Display of Quantitative
 •	cómo han cambiado las cifras de cada país a lo largo del tiempo 
 •	cómo se compara la tasa de cambio de cada país con las tasas de cambio de los demás países 
 •	cualquier desviación notable en la tendencia general 
+![image](https://user-images.githubusercontent.com/103445965/204891078-ad89d1f9-9b0b-4d88-a6e8-4267a8fa51cc.png)
 
 Las principales limitaciones consiste en el gran número de líneas que se pueden obtener al contener los datos de entrada muchos datos.
 
