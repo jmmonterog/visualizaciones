@@ -45,5 +45,34 @@ En concreto, se encuentra en:
 
 https://public.tableau.com/app/profile/jes.s.montero6813/viz/scatterplot_16697842612620/Scatterplot
 
+![image](https://user-images.githubusercontent.com/103445965/204886441-81764fc5-5046-4361-88c4-eaa897899fc7.png)
+
+
+## Slope Chart (gráficos de pendiente)
+
+Es el hermano del gráfico de líneas. Los gráficos de líneas muestran tres o más puntos en el tiempo, mientras que los gráficos de pendientes muestran exactamente dos puntos en el tiempo.
+
+Definido por Edward Tufte en su libro de 1983 The Visual Display of Quantitative Information, este tipo de gráfico es útil para ver 
+•	la jerarquía de los países en dos años diferentes
+•	las cifras específicas asociadas a cada país en cada uno de esos años 
+•	cómo han cambiado las cifras de cada país a lo largo del tiempo 
+•	cómo se compara la tasa de cambio de cada país con las tasas de cambio de los demás países 
+•	cualquier desviación notable en la tendencia general 
+
+Las principales limitaciones consiste en el gran número de líneas que se pueden obtener al contener los datos de entrada muchos conjuntos.
+
+* **Tipo de dato utilizado**
+
+Los datos proceden de *La estadística de nombres de los recién nacidos*, elaborada por el Instituto Nacional de Estadística (https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177009&menu=resultados&idp=1254734710990#!tabs-1254736195498). Representa los 100 nombres de niños y los 100 nombres de niñas asignados cada año. Para esta visualización se ha seleccionado el año 2002 y el año 2022. Los datos de entrada para esta visualización están disponibles en la carpeta slopechart.
+
+* **Visualización realizada**
+
+La visualización está publicada en el Perfil de Tableau del alumno, disponible.
+
+En concreto, se encuentra en:
+
+https://public.tableau.com/app/profile/jes.s.montero6813/viz/nombres_bebes/nombres_bebes
+
+![image](https://user-images.githubusercontent.com/103445965/204886329-a89127f1-03e9-41a6-a966-52e4930152d9.png)
 
 
