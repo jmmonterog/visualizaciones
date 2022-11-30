@@ -111,6 +111,14 @@ Una captura de pantalla es la siguiente:
 
 ![image](https://user-images.githubusercontent.com/103445965/204889819-94c8af8b-ed9a-467a-b3c7-9039e99e0b89.png)
 
+**Referencias**
+
+* **DataViz Project:** https://datavizproject.com/
+* **Portal de datos abiertos del Gobierno de España:** https://datos.gob.es/es/
+* **Instituto Nacional de Estadística:** https://www.ine.es/
+* **D3.js: Complete Developer Data Visualization Guide:** Packt ISBN 9781800565692
+* **How to Visualize Data with D3:** Packt ISBN 9781801818131
+
 
 
 
