@@ -45,7 +45,7 @@ En concreto, se encuentra en:
 
 https://public.tableau.com/app/profile/jes.s.montero6813/viz/scatterplot_16697842612620/Scatterplot
 
-![image](https://user-images.githubusercontent.com/103445965/204886441-81764fc5-5046-4361-88c4-eaa897899fc7.png)
+![image](https://user-images.githubusercontent.com/103445965/204893860-f2b81c20-1cc0-4cb2-afc1-bfba703e4216.png)
 
 
 ## Slope Chart (gráficos de pendiente)
