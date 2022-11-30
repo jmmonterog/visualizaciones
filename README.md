@@ -118,7 +118,7 @@ Una captura de pantalla es la siguiente:
 * **Instituto Nacional de Estadística:** https://www.ine.es/
 * **D3.js: Complete Developer Data Visualization Guide:** Packt ISBN 9781800565692
 * **How to Visualize Data with D3:** Packt ISBN 9781801818131
-
+* **Learning Tableau 2020:** Packt ISBN 9781800200364
 
 
 
